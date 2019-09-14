@@ -1,4 +1,4 @@
-Jquery('document').ready(function($){
+$(document).ready(function($){
     var subir = $('.back-to-top');
 
     subir.click(function(e){
@@ -17,4 +17,15 @@ Jquery('document').ready(function($){
             subir.fadeOut();
         }
     });
+});
+    
+$(document).ready(function(){
+
+$('.nav-link').click(function(e){
+
+var linkHref = $(this).attr('href');
+
+    e.preventDefault();
+});
+
 });
