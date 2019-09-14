@@ -11,7 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link href="Estilos.css" rel="stylesheet">
-    
+
     <script src="js.js"></script>
 
     <link rel="shortcut icon" type="imagen/png" href="img/paw.png">
@@ -188,9 +188,10 @@
 
     <!-- misión y visión -->
     <div class="container-fluid padding">
-        <div class="row padding text-center">
+        <div class="welcome row padding text-center">
             <div class="col-xs-6">
-                <h2>Misión y Visión</h2>
+                <h1 class="display-4">Misión y Visión</h1>
+                <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis metus felis, ac auctor
                     sapien pulvinar nec. Donec mattis ornare lacus in consequat. Phasellus malesuada velit neque, a
                     tristique dolor interdum bibendum. Maecenas vulputate urna ut ultrices dignissim. Nullam porttitor
@@ -210,9 +211,11 @@
             </div>
         </div>
     </div>
+
+
     <!--Contacto-->
     <div class="container-fluid padding">
-        <div class="contact padding text-center">
+        <div class="welcome padding text-center">
             <div class="col-xs-6">
                 <h1 class="display-4">Contáctenos</h1>
                 <hr>
@@ -223,54 +226,61 @@
         </div>
     </div>
     <br>
-    <div class="container-fluid padding col-xs-6">
-        <form class="">
-            <div class="form-row">
-                <div class="form-group col-xs-6">
-                    <table>
+    <div class="container-fluid padding text-center">
+        <form>
+            <table>
+                <div class="form-row">
+
+                    <div class="form-group col-xs-6">
+
                         <tr>
                             <td> <label for="inputName">Nombre</label></td>
                             <td><input type="text" class="form-control" id="inputName" placeholder="Nombre y Apellido">
                             </td>
                         </tr>
-                </div>
+                    </div>
 
-            </div>
-            <div class="form-row">
-                <div class="form-group col-xs-6">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-xs-6">
+                        <tr>
+                            <td><label for="inputEmail">Correo</label></td>
+                            <td><input type="password" class="form-control" id="inputEmail"
+                                    placeholder="Dirección de correo electronico"></td>
+                        </tr>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-xs-6">
+                        <tr>
+                            <td><label for="inputCity">Ciudad</label></td>
+                            <td><input type="text" class="form-control" id="inputCity"
+                                    placeholder="Ej: Santiago, Cerrillos"></td>
+                        </tr>
+                    </div>
+                </div>
+                <div class="form-group">
                     <tr>
-                        <td><label for="inputEmail">Correo</label></td>
-                        <td><input type="password" class="form-control" id="inputEmail"
-                                placeholder="Dirección de correo electronico"></td>
+                        <td><label for="inputComentaries">Mensaje</label></td>
+                        <td><textarea class="form-control" id="inputComentaries" cols="30" rows="10"></textarea></td>
                     </tr>
                 </div>
-            </div>
-            <div class="form-row">
-                <div class="form-group col-xs-6">
-                    <tr>
-                        <td><label for="inputCity">Ciudad</label></td>
-                        <td><input type="text" class="form-control" id="inputCity"
-                                placeholder="Ej: Santiago, Cerrillos"></td>
-                    </tr>
-                </div>
-            </div>
-            <div class="form-group">
                 <tr>
-                    <td><label for="inputComentaries">Mensaje</label></td>
-                    <td><textarea class="form-control" id="inputComentaries" cols="30" rows="10"></textarea></td>
+                    <td><button type="submit" class="btn btn-primary">Enviar</button></td>
                 </tr>
-            </div>
-            <tr>
-                <td><button type="submit" class="btn btn-primary">Enviar</button></td>
-            </tr>
+
             </table>
+
+
+
         </form>
     </div>
     <!-- Redes Sociales -->
     <div class="container-fluid padding">
-        <div class="row text-center padding">
+        <div class="welcome row text-center padding">
             <div class="col-12">
-                <h2>Redes Sociales</h2>
+                <h1 class="display-4">Redes Sociales</h1>
+                <hr>
             </div>
             <div class="col-12 social padding">
                 <a href="https://www.facebook.com" target="blank"><i class="fab fa-facebook"></i></a>
