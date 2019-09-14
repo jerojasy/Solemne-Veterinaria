@@ -59,24 +59,6 @@ padding: .8rem;
     margin-top: .3rem;
     margin-bottom: 1rem;
 }
-.mision hr {
-    border-top: 2px solid #b4b4b4;
-    width: 95%;
-    margin-top: .3rem;
-    margin-bottom: 1rem;
-}
-.contact hr {
-    border-top: 2px solid #b4b4b4;
-    width: 95%;
-    margin-top: .3rem;
-    margin-bottom: 1rem;
-}
-.rrss hr{
-    border-top: 2px solid #b4b4b4;
-    width: 95;
-    margin-top: .3rem;
-    margin-bottom: 1rem;
-}
 .social a{
     font-size: 4.5em;
     padding: 3rem;
