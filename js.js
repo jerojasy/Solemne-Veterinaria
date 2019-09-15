@@ -18,7 +18,7 @@ $(document).ready(function($){
         }
     });
 
-    $('.nav-link').click(function(e){
+    $(nav-link).click(function(e){
 
         var linkHref = $(this).attr('href');
     
