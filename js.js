@@ -18,17 +18,13 @@ $(document).ready(function($){
         }
     });
 
-    
-});
-    
-$(document).ready(function(){
-
     $('.nav-link').click(function(e){
 
-    var linkHref = $(this).attr('href');
+        var linkHref = $(this).attr('href');
+    
+            e.preventDefault();
+        });
 
-        e.preventDefault();
-    });
-
+    
 });
 

@@ -35,13 +35,13 @@
                         <a class="nav-link" href="#quienessomos">Quiénes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Misión y Visión</a>
+                        <a class="nav-link" href="#misionvision">Misión y Visión</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -187,7 +187,7 @@
 
 
     <!-- misión y visión -->
-    <div class="container-fluid padding">
+    <div class="container-fluid padding" id="misionvision">
         <div class="welcome row padding text-center">
             <div class="col-xs-6">
                 <h1 class="display-4">Misión y Visión</h1>
@@ -214,7 +214,7 @@
 
 
     <!--Contacto-->
-    <div class="container-fluid padding">
+    <div class="container-fluid padding" id="contacto">
         <div class="welcome padding text-center">
             <div class="col-xs-6">
                 <h1 class="display-4">Contáctenos</h1>
@@ -225,71 +225,77 @@
 
         </div>
     </div>
-    <br>
-    <div class="container-fluid padding text-center">
-        <form>
-            <table>
-                <div class="form-row">
 
-                    <div class="form-group col-xs-6">
+    <div class="container padding">
+        <div class="col">
+            <div class="text-center">
+                <form>
+                    <table>
+                        <div class="form-row">
 
+                            <div class="form-group">
+
+                                <tr>
+                                    <td> <label for="inputName">Nombre</label></td>
+                                    <td><input type="text" class="form-control" id="inputName"
+                                            placeholder="Nombre y Apellido">
+                                    </td>
+                                </tr>
+                            </div>
+
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-xs-6">
+                                <tr>
+                                    <td><label for="inputEmail">Correo</label></td>
+                                    <td><input type="password" class="form-control" id="inputEmail"
+                                            placeholder="Dirección de correo electronico"></td>
+                                </tr>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-xs-6">
+                                <tr>
+                                    <td><label for="inputCity">Ciudad</label></td>
+                                    <td><input type="text" class="form-control" id="inputCity"
+                                            placeholder="Ej: Santiago, Cerrillos"></td>
+                                </tr>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <tr>
+                                <td><label for="inputComentaries">Mensaje</label></td>
+                                <td><textarea class="form-control" id="inputComentaries" cols="30" rows="10"></textarea>
+                                </td>
+                            </tr>
+                        </div>
                         <tr>
-                            <td> <label for="inputName">Nombre</label></td>
-                            <td><input type="text" class="form-control" id="inputName" placeholder="Nombre y Apellido">
-                            </td>
+                            <td><button type="submit" class="btn btn-primary">Enviar</button></td>
                         </tr>
-                    </div>
 
-                </div>
-                <div class="form-row">
-                    <div class="form-group col-xs-6">
-                        <tr>
-                            <td><label for="inputEmail">Correo</label></td>
-                            <td><input type="password" class="form-control" id="inputEmail"
-                                    placeholder="Dirección de correo electronico"></td>
-                        </tr>
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="form-group col-xs-6">
-                        <tr>
-                            <td><label for="inputCity">Ciudad</label></td>
-                            <td><input type="text" class="form-control" id="inputCity"
-                                    placeholder="Ej: Santiago, Cerrillos"></td>
-                        </tr>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <tr>
-                        <td><label for="inputComentaries">Mensaje</label></td>
-                        <td><textarea class="form-control" id="inputComentaries" cols="30" rows="10"></textarea></td>
-                    </tr>
-                </div>
-                <tr>
-                    <td><button type="submit" class="btn btn-primary">Enviar</button></td>
-                </tr>
+                    </table>
 
-            </table>
-
-
-
-        </form>
-    </div>
-    <!-- Redes Sociales -->
-    <div class="container-fluid padding">
-        <div class="welcome row text-center padding">
-            <div class="col-12">
-                <h1 class="display-4">Redes Sociales</h1>
-                <hr>
-            </div>
-            <div class="col-12 social padding">
-                <a href="https://www.facebook.com" target="blank"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://youtube.com" target="blank"><i class="fab fa-youtube"></i></a>
+                </form>
             </div>
         </div>
 
+
+        <!-- Redes Sociales -->
+        <div class="container-fluid padding" id="rrss">
+            <div class="welcome row text-center padding">
+                <div class="col-12">
+                    <h1 class="display-4">Redes Sociales</h1>
+                    <hr>
+                </div>
+                <div class="col-12 social padding">
+                    <a href="https://www.facebook.com" target="blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://youtube.com" target="blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+        </div>
     </div>
 
     <!-- Footer -->
@@ -327,9 +333,8 @@
 
         </div>
     </footer>
-
     <a class="back-to-top">Volver Arriba</a>
-
+    
 </body>
 
 </html>
